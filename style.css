@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+}
+.container {
+  background-color: #C9CBA3;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+}
+.profile-pic {
+  background-image: url(src/pictures/julie_mapi.jpg);
+  position: absolute;
+  width: 459px;
+  height: 750px;
+  left: 62px;
+  top: 116px;
+  box-shadow: 9px 18px 1px rgba(186, 212, 170, 0.73);
+  border-radius: 5px;
+}
+.profile-pic img {
+  width: 459px;
+  height: 750px;
+  left: 62px;
+  top: 116px;
+  border-radius: 5px;
+}
+.title-name {
+  position: absolute;
+  width: 764px;
+  height: 204px;
+  left: calc(50% - 764px/2 + 183px);
+  top: 73px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 114px;
+  text-align: center;
+
+  color: #B2A3A3;
+}
+.about-me {
+  position: relative;
+  width: 1131px;
+  height: 666px;
+  left: 200px;
+  top: 277px;
+
+  background: #FFFBFF;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+#content-about-me {
+  position: absolute;
+  width: 724px;
+  height: 595px;
+  left: 384px;
+ /* top: 16px;*/
+  background-color: red;
+  margin-top :32px;
+  margin-bottom:32px;
+}
