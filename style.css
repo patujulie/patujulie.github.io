@@ -1,4 +1,92 @@
-*{
+#main-page {
+  margin: 0px;
+  background-color: white;
+}
+.blog-cover {
+  background-color: #E4CF72
+}
+.title {
+  color: #2D7166;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+#blog-title {
+  font-size: 72px;
+  font-weight: bold;
+  padding-top: 72px;
+}
+#blog-description {
+  padding-bottom: 38px;
+  font-size: 38px;
+}
+
+.page-menu {
+  width: 100vw;
+  font-size: 93.8%;
+  position: relative;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.page-item a {
+  color: #2D7166;
+  position: relative;
+  margin: 12px 12px 12px 12px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+  padding-bottom: 12px;
+}
+
+.page-item a:hover {
+  text-decoration: none;
+  color: #2D7166;
+  border-bottom: solid 1px #2D7166;
+}
+
+.main-propos {
+margin-top: 38px;
+}
+.picture {
+  position: absolute;
+  background-image: url(src/pictures/julie_mapi.jpg);
+  background-size: cover;
+  width: 306px;
+  top: 341px;
+  height: 420px;
+  left: 215px;
+  box-shadow: 3px 3px 1px #E4CF72;
+  border-radius: 5px;
+}
+
+.propos-content  {
+  position: absolute;
+  padding: 32px;
+  padding-left: 121px;
+  width: 597px;
+  height: 343px;
+  left: 438px;
+  top: 576px;
+  background: #E4CF72;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**{
   margin: 0;
 }
 .container {
@@ -19,7 +107,7 @@
 }
 .profile-pic img {
   width: 459px;
-  height: 750px;
+  height: 750pxpx;
   left: 62px;
   top: 116px;
   border-radius: 5px;
@@ -61,3 +149,4 @@
   margin-top :32px;
   margin-bottom:32px;
 }
+*/
