@@ -150,7 +150,16 @@ margin-top: 38px;
 
 /* ///////////////      WAGON RACE ////////////////*/
 
-
+.border-race {
+  margin: 0 auto;
+  margin-bottom: 2px;
+  width: 70vw;
+}
+.racer_table {
+/*  height: 60vh;
+  width: 60vw;*/
+  margin : 0 auto;
+}
 .racer_table td {
   height: 40px;
   width: 40px;
