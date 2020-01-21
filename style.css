@@ -4,10 +4,6 @@
 
 #main-page {
   background-color: white;
-=======
-#main-page {
-  margin: 0px;
-  background-color: white;
 }
 .blog-cover {
   background-color: #E4CF72
@@ -58,70 +54,24 @@
 .main-propos {
 margin-top: 38px;
 }
-.picture {
-  position: absolute;
-  background-image: url(src/pictures/julie_mapi.jpg);
-  background-size: cover;
-  width: 306px;
-  top: 341px;
-  height: 420px;
-  left: 215px;
-  box-shadow: 3px 3px 1px #E4CF72;
-  border-radius: 5px;
-}
-
-.propos-content  {
-  position: absolute;
-  padding: 32px;
-  padding-left: 121px;
-  width: 597px;
-  height: 343px;
-  left: 438px;
-  top: 576px;
-  background: #E4CF72;
-  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-/**{
-  margin: 0;
-}
-.container {
-  background-color: #C9CBA3;
-  position: relative;
-  width: 1440px;
-  height: 1024px;
->>>>>>> 229ade1b629f1cde324b20719429267ddcf47125
-}
-
 /* ///////////////      COVER AND NAVBAR ////////////////*/
 
 .blog-cover {
   background-color: #E4CF72
 }
-<<<<<<< HEAD
+
 .title {
   color: #2D7166;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-=======
+}
+
 .profile-pic img {
   width: 459px;
   height: 750pxpx;
   left: 62px;
   top: 116px;
   border-radius: 5px;
->>>>>>> 229ade1b629f1cde324b20719429267ddcf47125
 }
 .content {
   font-family: 'Oswald', sans-serif;
@@ -220,4 +170,4 @@ td.finish {
   background-image: url("src/pictures/finish.png");
   background-size: cover;
 }
-*/
+
